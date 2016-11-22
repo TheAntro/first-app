@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		21B200841DE4D60500A7FFBE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21B200831DE4D60500A7FFBE /* AppDelegate.swift */; };
+		21B200861DE4D60500A7FFBE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21B200851DE4D60500A7FFBE /* ViewController.swift */; };
+		21B200891DE4D60500A7FFBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21B200871DE4D60500A7FFBE /* Main.storyboard */; };
+		21B2008B1DE4D60500A7FFBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21B2008A1DE4D60500A7FFBE /* Assets.xcassets */; };
+		21B2008E1DE4D60500A7FFBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21B2008C1DE4D60500A7FFBE /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		21B200801DE4D60500A7FFBE /* FifaAppScrollingProto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FifaAppScrollingProto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		21B200831DE4D60500A7FFBE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		21B200851DE4D60500A7FFBE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		21B200881DE4D60500A7FFBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		21B2008A1DE4D60500A7FFBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		21B2008D1DE4D60500A7FFBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		21B2008F1DE4D60500A7FFBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		21B2007D1DE4D60500A7FFBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		21B200771DE4D60500A7FFBE = {
+			isa = PBXGroup;
+			children = (
+				21B200821DE4D60500A7FFBE /* FifaAppScrollingProto */,
+				21B200811DE4D60500A7FFBE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		21B200811DE4D60500A7FFBE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				21B200801DE4D60500A7FFBE /* FifaAppScrollingProto.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		21B200821DE4D60500A7FFBE /* FifaAppScrollingProto */ = {
+			isa = PBXGroup;
+			children = (
+				21B200831DE4D60500A7FFBE /* AppDelegate.swift */,
+				21B200851DE4D60500A7FFBE /* ViewController.swift */,
+				21B200871DE4D60500A7FFBE /* Main.storyboard */,
+				21B2008A1DE4D60500A7FFBE /* Assets.xcassets */,
+				21B2008C1DE4D60500A7FFBE /* LaunchScreen.storyboard */,
+				21B2008F1DE4D60500A7FFBE /* Info.plist */,
+			);
+			path = FifaAppScrollingProto;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		21B2007F1DE4D60500A7FFBE /* FifaAppScrollingProto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21B200921DE4D60500A7FFBE /* Build configuration list for PBXNativeTarget "FifaAppScrollingProto" */;
+			buildPhases = (
+				21B2007C1DE4D60500A7FFBE /* Sources */,
+				21B2007D1DE4D60500A7FFBE /* Frameworks */,
+				21B2007E1DE4D60500A7FFBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FifaAppScrollingProto;
+			productName = FifaAppScrollingProto;
+			productReference = 21B200801DE4D60500A7FFBE /* FifaAppScrollingProto.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		21B200781DE4D60500A7FFBE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Valtteri Ranta";
+				TargetAttributes = {
+					21B2007F1DE4D60500A7FFBE = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 21B2007B1DE4D60500A7FFBE /* Build configuration list for PBXProject "FifaAppScrollingProto" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 21B200771DE4D60500A7FFBE;
+			productRefGroup = 21B200811DE4D60500A7FFBE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				21B2007F1DE4D60500A7FFBE /* FifaAppScrollingProto */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		21B2007E1DE4D60500A7FFBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21B2008E1DE4D60500A7FFBE /* LaunchScreen.storyboard in Resources */,
+				21B2008B1DE4D60500A7FFBE /* Assets.xcassets in Resources */,
+				21B200891DE4D60500A7FFBE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		21B2007C1DE4D60500A7FFBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21B200861DE4D60500A7FFBE /* ViewController.swift in Sources */,
+				21B200841DE4D60500A7FFBE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		21B200871DE4D60500A7FFBE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21B200881DE4D60500A7FFBE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		21B2008C1DE4D60500A7FFBE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21B2008D1DE4D60500A7FFBE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		21B200901DE4D60500A7FFBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		21B200911DE4D60500A7FFBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		21B200931DE4D60500A7FFBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FifaAppScrollingProto/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.valtteriranta.FifaAppScrollingProto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		21B200941DE4D60500A7FFBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FifaAppScrollingProto/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.valtteriranta.FifaAppScrollingProto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		21B2007B1DE4D60500A7FFBE /* Build configuration list for PBXProject "FifaAppScrollingProto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21B200901DE4D60500A7FFBE /* Debug */,
+				21B200911DE4D60500A7FFBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21B200921DE4D60500A7FFBE /* Build configuration list for PBXNativeTarget "FifaAppScrollingProto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21B200931DE4D60500A7FFBE /* Debug */,
+				21B200941DE4D60500A7FFBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 21B200781DE4D60500A7FFBE /* Project object */;
+}
